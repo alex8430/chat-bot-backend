@@ -21,9 +21,11 @@ This repository contains the backend server code for the Textbase Bot project. T
     ```
     npm install
 ### Running Locally
-1. The server will run on port 3000 by default. You can access it at http://localhost:3000.
-
-2. To connect the backend to the Textbase UI, set the appropriate environment variables, including MODEL, TEXT_TO_SPEECH_API, LLM_API_ENDPOINT, and others.
+1. execute index.js file
+    ```
+    node index.js
+2. The server will run on port 3000 by default. You can access it at http://localhost:3000.
+3. To connect the backend to the Textbase UI, set the appropriate environment variables, including MODEL, TEXT_TO_SPEECH_API, LLM_API_ENDPOINT, and others.
 
 ### API Endpoints
 1. /sendMessageV2 (POST)
